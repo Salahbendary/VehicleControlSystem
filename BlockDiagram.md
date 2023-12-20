@@ -31,7 +31,6 @@ graph TD
     B -->|Data| G
     C -->|Data| G
     D -->|User Input| E & F
-    D -->|User Input| F
     E -->|Control Signal| A
     E -->|Control Signal| B
     E -->|Control Signal| C
