@@ -4,9 +4,9 @@
 
 This project involves the design and control of an Vehicle based on a given [requirements file](https://github.com/Salahbendary/VehicleControlSystem/blob/main/Mini%20Project%201_C%20Programming.pdf). The system includes sensor functions, menu functions, and control functions that work together to manage the vehicle based on simulated sensor inputs.
 
-## Flowchart to Sequence Diagram
+## Sequence Diagram
 
-The provided [flowchart](https://github.com/Salahbendary/VehicleControlSystem/blob/main/flowChart.md) has been translated into a sequence diagram using the [Mermaid](https://mermaid-js.github.io/mermaid/) syntax. The sequence diagram represents the interaction between user input, sensor functions, menu functions, and control functions.
+The provided sequence diagram has been translated using the [Mermaid](https://mermaid-js.github.io/mermaid/) syntax, to represent the flow of the system. The sequence diagram represents the interaction between user input, sensor functions, menu functions, and control functions.
 
 ### Modifications
 
