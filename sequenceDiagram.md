@@ -32,16 +32,17 @@ sequenceDiagram
     participant ControlFunctions
     participant DisplayFunctions
 
-    User ->> SensorFunctions: simulateTrafficLight()
-    SensorFunctions ->> ControlFunctions: **u8trafficLight**
-    User ->> SensorFunctions: simulateRoomTemperature()
-    SensorFunctions ->> ControlFunctions: **u16roomTemperature**
-    User ->> SensorFunctions: simulateEngineTemperature()
-    SensorFunctions ->> ControlFunctions: **u16engineTemperature**
     User ->> MenuFunctions: printMainMenu()
-    User ->> MenuFunctions: turnOnEngine()
-    MenuFunctions ->> ControlFunctions: **turnOnEngine()**
     User ->> MenuFunctions: turnOffEngine()
+    MenuFunctions ->> User: printMainMenu()
+    User ->> MenuFunctions: turnOnEngine()
+    User ->> SensorFunctions: simulateTrafficLight()
+    User ->> SensorFunctions: simulateRoomTemperature()
+    User ->> SensorFunctions: simulateEngineTemperature()
+    SensorFunctions ->> ControlFunctions: **u8trafficLight**
+    SensorFunctions ->> ControlFunctions: **u16roomTemperature**
+    SensorFunctions ->> ControlFunctions: **u16engineTemperature**
+    MenuFunctions ->> ControlFunctions: **turnOnEngine()**
     MenuFunctions ->> ControlFunctions: **turnOffEngine()**
     ControlFunctions ->> ControlFunctions: **controlVehicleBasedOnSensors(u8trafficLight, u16roomTemperature, u16engineTemperature)**
     ControlFunctions ->> DisplayFunctions: **getCurrentVehicleState()**
