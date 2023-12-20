@@ -29,5 +29,7 @@ graph TD
     C -->|Data| G
     D -->|User Input| E
     D -->|User Input| F
-    E -->|Control Signal| G
+    E -->|Control Signal| A
+    E -->|Control Signal| B
+    E -->|Control Signal| A
     F --> D
