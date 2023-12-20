@@ -1,4 +1,4 @@
-# Vehicle Control System Block Diagram
+# Vehicle Control System [Block Diagram]
 
 ## Overview
 
