@@ -47,15 +47,16 @@ If you'd like to contribute to the project, please follow these guidelines:
 3. Commit your changes: `git commit -m "Add your commit message here"`.
 4. Push the branch to your fork: `git push origin feature/your-feature-name`.
 5. Create a pull request.
+   
+## Video 
+
+[![Watch the video](https://img.youtube.com/vi/R8adJSf0R6o/0.jpg)](https://www.youtube.com/watch?v=R8adJSf0R6o)
+
+
 
 ## Contact
 
 For any inquiries, please contact [Salah Bendary](mailto:salahbendary1@gmail.com).
-
-## Video 
-
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=R8adJSf0R6o" frameborder="0" allowfullscreen></iframe>
-
 
 Happy coding!
 
