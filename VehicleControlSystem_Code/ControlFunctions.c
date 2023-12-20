@@ -48,11 +48,11 @@ void controlVehicleBasedOnSensors(uint8 u8trafficLight, uint32 u32roomTemp, uint
     }
 #if WITH_ENGINE_TEMP_CONTROLLER
     /* c. Based on engine temperature data */
-    if (u32engineTemperature < 100) {
+    if (u32engineTemp < 100) {
     	 /* i. Turn Engine Temperature Controller ON and set temperature to 125 */
         p8engineTempControllerState = "ON";
         u32engineTemp = 125;
-    } else if (u32engineTemperature > 150) {
+    } else if (u32engineTemp > 150) {
     	 /* ii. Turn Engine Temperature Controller ON and set temperature to 125 */
         p8engineTempControllerState = "ON";
         u32engineTemp = 125;
@@ -60,7 +60,6 @@ void controlVehicleBasedOnSensors(uint8 u8trafficLight, uint32 u32roomTemp, uint
     else {
     	/* iii. Turn Engine Temperature Controller OFF */
         p8engineTempControllerState = "OFF";
-        u32engineTemp = u32engineTemperature;
     }
 #else
     p8engineTempControllerState = "OFF";
