@@ -1,6 +1,5 @@
 # Vehicle Control System
 
-# Vehicle Control System
 
 ## Overview
 
