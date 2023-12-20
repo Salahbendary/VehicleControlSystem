@@ -49,9 +49,6 @@ If you'd like to contribute to the project, please follow these guidelines:
 5. Create a pull request.
    
 ## Video 
-
-https://github.com/Salahbendary/VehicleControlSystem/assets/82404538/7f97eeb5-2a42-4579-8eee-abcacc9e20eb
-
 ## Contact
 
 For any inquiries, please contact [Salah Bendary](mailto:salahbendary1@gmail.com).
