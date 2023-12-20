@@ -6,7 +6,7 @@ This project involves the design and control of an Vehicle based on a given [req
 
 ## Sequence Diagram
 
-The provided sequence diagram has been translated using the [Mermaid](https://mermaid-js.github.io/mermaid/) syntax, to represent the flow of the system. The sequence diagram represents the interaction between user input, sensor functions, menu functions, and control functions.
+The provided sequence diagram has been translated using the [Mermaid](https://mermaid-js.github.io/mermaid/) syntax. The sequence diagram represents the interaction between user input, sensor functions, menu functions, and control functions.
 
 ### Modifications
 
