@@ -25,9 +25,9 @@
 
 /* Section: Function Declarations */
 
-uint8 simulateu8trafficLight();  /* Function to simulate traffic light status */
-uint32 simulateu32roomTemperature();   /* Function to simulate room temperature */
-uint32 simulateu32engineTemperature();   /* Function to simulate engine temperature */
+uint8 simulateTrafficLight();  /* Function to simulate traffic light status */
+uint32 simulateuRoomTemperature();   /* Function to simulate room temperature */
+uint32 simulateEngineTemperature();   /* Function to simulate engine temperature */
 
 
 #endif /* SENSORFUNCTIONS_H_ */
