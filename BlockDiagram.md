@@ -30,4 +30,4 @@ graph TD
     D -->|User Input| E
     D -->|User Input| F
     E -->|Control Signal| G
-    F -->|Control Signal| G
+    F --> D
