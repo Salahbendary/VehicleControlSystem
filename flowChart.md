@@ -41,6 +41,9 @@ graph TD
     subgraph ControlFunctions
         G[Control Vehicle Based on Sensors]
     end
+  subgraph DisplayFunctions
+        H[Display current vehicle state]
+    end
 
     A -->|Return| G
     B -->|Return| G
@@ -50,3 +53,4 @@ graph TD
     E -->|Call| B
     E -->|Call| C
     F -->|Call| D
+    G -->|Call| H
