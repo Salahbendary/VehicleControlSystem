@@ -42,8 +42,6 @@ sequenceDiagram
     SensorFunctions ->> ControlFunctions: **u8trafficLight**
     SensorFunctions ->> ControlFunctions: **u16roomTemperature**
     SensorFunctions ->> ControlFunctions: **u16engineTemperature**
-    MenuFunctions ->> ControlFunctions: **turnOnEngine()**
-    MenuFunctions ->> ControlFunctions: **turnOffEngine()**
     ControlFunctions ->> ControlFunctions: **controlVehicleBasedOnSensors(u8trafficLight, u16roomTemperature, u16engineTemperature)**
     ControlFunctions ->> DisplayFunctions: **getCurrentVehicleState()**
     DisplayFunctions -->> User: Display current vehicle state
