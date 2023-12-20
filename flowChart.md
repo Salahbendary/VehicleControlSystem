@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project involves the design and control of an Vehicle based on a given [requirements file](https://github.com/Salahbendary/VehicleControlSystem/blob/main/Mini%20Project%201_C%20Programming.pdf). The system includes sensor simulations for traffic light, room temperature, and engine temperature, as well as menu functions for managing the engine.
+This project involves the design and control of an Vehicle based on a given [requirements file](https://github.com/Salahbendary/VehicleControlSystem/blob/main/Mini%20Project%201_C%20Programming.pdf). The system includes sensor functions, menu functions, and control functions that work together to manage the vehicle based on simulated sensor inputs.
 
 ## System Flowchart 
 The provided flowchart has been translated using the [Mermaid](https://mermaid-js.github.io/mermaid/) syntax, to represent the flow of the system,
