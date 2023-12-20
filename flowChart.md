@@ -49,6 +49,7 @@ graph TD
     B -->|Return| G
     C -->|Return| G
     D -->|Call| E
+    D -->|Call| F
     E -->|Call| A
     E -->|Call| B
     E -->|Call| C
