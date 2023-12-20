@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant User
     participant SensorFunctions
@@ -5,14 +6,14 @@ sequenceDiagram
     participant ControlFunctions
 
     User ->> SensorFunctions: simulateTrafficLight()
-    SensorFunctions ->> ControlFunctions: u8trafficLight
+    SensorFunctions ->> ControlFunctions: **u8trafficLight**
     User ->> SensorFunctions: simulateuRoomTemperature()
-    SensorFunctions ->> ControlFunctions: u16roomTemperature
+    SensorFunctions ->> ControlFunctions: **u16roomTemperature**
     User ->> SensorFunctions: simulateEngineTemperature()
-    SensorFunctions ->> ControlFunctions: u16engineTemperature
+    SensorFunctions ->> ControlFunctions: **u16engineTemperature**
     User ->> MenuFunctions: printMainMenu()
     User ->> MenuFunctions: turnOnEngine()
-    MenuFunctions ->> ControlFunctions: turnOnEngine()
+    MenuFunctions ->> ControlFunctions: **turnOnEngine()**
     User ->> MenuFunctions: turnOffEngine()
-    MenuFunctions ->> ControlFunctions: turnOffEngine()
-    ControlFunctions ->> ControlFunctions: controlVehicleBasedOnSensors(u8trafficLight, u16roomTemperature, u16engineTemperature)
+    MenuFunctions ->> ControlFunctions: **turnOffEngine()**
+    ControlFunctions ->> ControlFunctions: **controlVehicleBasedOnSensors(u8trafficLight, u16roomTemperature, u16engineTemperature)**
