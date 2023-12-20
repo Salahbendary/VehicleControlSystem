@@ -50,9 +50,7 @@ If you'd like to contribute to the project, please follow these guidelines:
    
 ## Video 
 
-[![Watch the video](https://img.youtube.com/vi/R8adJSf0R6o/0.jpg)](https://www.youtube.com/watch?v=R8adJSf0R6o)
-
-
+https://github.com/Salahbendary/VehicleControlSystem/assets/82404538/7f97eeb5-2a42-4579-8eee-abcacc9e20eb
 
 ## Contact
 
