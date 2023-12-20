@@ -29,7 +29,7 @@ void mainFunction() {
 #if  WITH_ENGINE_TEMP_CONTROLLER
                 uint32 u32engineTemperature = simulateEngineTemperature();
 #endif
-                uint32 u32engineTemperature=0;
+                u32engineTemperature=0;
                 controlVehicleBasedOnSensors(u8trafficLight, u32roomTemperature, u32engineTemperature);
                 break;
             case 'b':
