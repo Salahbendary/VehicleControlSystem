@@ -6,7 +6,7 @@ This project involves the design and control of an Vehicle based on a given [req
 
 ## Flowchart to Sequence Diagram
 
-The provided [flowchart](https://github.com/Salahbendary/VehicleControlSystem/blob/main/flowChart.md) has been translated into a sequence diagram using the [Mermaid](https://mermaid-js.github.io/mermaid/) syntax. The sequence diagram represents the interaction between user input, sensor functions, menu functions, and control functions in an automotive embedded system.
+The provided [flowchart](https://github.com/Salahbendary/VehicleControlSystem/blob/main/flowChart.md) has been translated into a sequence diagram using the [Mermaid](https://mermaid-js.github.io/mermaid/) syntax. The sequence diagram represents the interaction between user input, sensor functions, menu functions, and control functions.
 
 ### Modifications
 
