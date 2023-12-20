@@ -20,5 +20,7 @@ graph TD
     B -->|Return| G
     C -->|Return| G
     D -->|Call| E
-    E -->|Call| G
-    F -->|Call| G
+    E -->|Call| A
+    E -->|Call| B
+    E -->|Call| C
+    F -->|Call| D
