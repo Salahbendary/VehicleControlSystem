@@ -1,4 +1,4 @@
-# Vehicle Control System Project
+# Vehicle Control System [Sequence Diagram]
 
 ## Overview
 
