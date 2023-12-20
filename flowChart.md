@@ -7,7 +7,7 @@ graph TD
     end
 
     subgraph MenuFunctions
-        D[Print Main Menu]
+      D[Print Main Menu]
         E[Turn On Engine]
         F[Simulate Traffic Light]
         G[Simulate Room Temperature]
@@ -16,6 +16,7 @@ graph TD
         J[Turn Off Engine]
         K[Void mainFunction()]
     end
+
 
     A -->|Call| F
     B -->|Call| G
