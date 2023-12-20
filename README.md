@@ -24,7 +24,7 @@ Welcome to the Vehicle Control System project! This repository contains the code
 - `VehicleControlSystem.c`: Main source file for the Vehicle Control System.
 
 ### Documentation
-
+- [Requirements File](https://github.com/Salahbendary/VehicleControlSystem/blob/main/Mini%20Project%201_C%20Programming.pdf): Define requirements of the system.
 - [Sequence Diagram](https://github.com/Salahbendary/VehicleControlSystem/blob/main/sequenceDiagram.md): Rrepresents the interaction between user input, sensor functions, menu functions, and control functions.
 - [System Flowchart](https://github.com/Salahbendary/VehicleControlSystem/blob/main/flowChart.md): Representation of the system flow.
 - [Block Diagram](https://github.com/Salahbendary/VehicleControlSystem/blob/main/BlockDiagram.md): Illustration of the components and interactions in the Vehicle Control System.
