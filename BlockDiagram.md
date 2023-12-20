@@ -30,7 +30,7 @@ graph TD
     A -->|Data| G
     B -->|Data| G
     C -->|Data| G
-    D -->|User Input| E && F
+    D -->|User Input| E & F
     D -->|User Input| F
     E -->|Control Signal| A
     E -->|Control Signal| B
