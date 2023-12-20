@@ -1,29 +1,24 @@
+```mermaid
 graph TD
     subgraph SensorFunctions
-        A[User Input: Traffic Light Color]
-        B[User Input: Room Temperature]
-        C[User Input: Engine Temperature]
-        D[Return u8trafficLight]
-        E[Return u16roomTemperature]
-        F[Return u16engineTemperature]
+        A[Simulate Traffic Light]
+        B[Simulate Room Temperature]
+        C[Simulate Engine Temperature]
     end
 
     subgraph MenuFunctions
-        G[Print Main Menu]
-        H[Turn On Engine]
-        I[Turn Off Engine]
+        D[Print Main Menu]
+        E[Turn On Engine]
+        F[Turn Off Engine]
     end
 
     subgraph ControlFunctions
-        J[Control Vehicle Based on Sensors]
+        G[Control Vehicle Based on Sensors]
     end
 
-    A -->|Call| D
-    B -->|Call| E
-    C -->|Call| F
-    D -->|Input| J
-    E -->|Input| J
-    F -->|Input| J
-    G -->|Call| H
-    H -->|Call| J
-    I -->|Call| J
+    A -->|Return| G
+    B -->|Return| G
+    C -->|Return| G
+    D -->|Call| E
+    E -->|Call| G
+    F -->|Call| G
