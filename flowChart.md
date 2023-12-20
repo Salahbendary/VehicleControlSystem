@@ -9,16 +9,21 @@ graph TD
     subgraph MenuFunctions
         D[Print Main Menu]
         E[Turn On Engine]
-        F[Turn Off Engine]
+        F[Simulate Traffic Light]
+        G[Simulate Room Temperature]
+        H[Simulate Engine Temperature]
+        I[Control Vehicle Based on Sensors]
+        J[Turn Off Engine]
+        K[Void mainFunction()]
     end
 
-    subgraph ControlFunctions
-        G[Control Vehicle Based on Sensors]
-    end
-
-    A -->|Return| G
-    B -->|Return| G
-    C -->|Return| G
+    A -->|Call| F
+    B -->|Call| G
+    C -->|Call| H
     D -->|Call| E
-    E -->|Call| G
+    E -->|Call| F
     F -->|Call| G
+    G -->|Call| H
+    H -->|Call| I
+    I -->|Call| J
+    J -->|Call| K
