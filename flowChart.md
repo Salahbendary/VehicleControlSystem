@@ -1,4 +1,4 @@
-# Vehicle Control System Project [ Flow Chart of the System ]
+# Vehicle Control System Project [Flow Chart of the System 
 
 ## Overview
 
