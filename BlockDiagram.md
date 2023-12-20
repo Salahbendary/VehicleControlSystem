@@ -23,6 +23,9 @@ graph TD
     subgraph ControlFunctions
         G[Control Logic]
     end
+    subgraph DisplayFunctions
+        H[Display current vehicle state]
+    end
 
     A -->|Data| G
     B -->|Data| G
@@ -31,5 +34,6 @@ graph TD
     D -->|User Input| F
     E -->|Control Signal| A
     E -->|Control Signal| B
-    E -->|Control Signal| A
+    E -->|Control Signal| C
     F --> D
+    G --> H
