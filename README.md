@@ -52,5 +52,10 @@ If you'd like to contribute to the project, please follow these guidelines:
 
 For any inquiries, please contact [Salah Bendary](mailto:salahbendary1@gmail.com).
 
+## Video 
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=R8adJSf0R6o" frameborder="0" allowfullscreen></iframe>
+
+
 Happy coding!
 
