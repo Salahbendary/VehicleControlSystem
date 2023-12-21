@@ -25,9 +25,9 @@
 
 /* Section: Function Declarations */
 
-uint8 simulateTrafficLight();  /* Function to simulate traffic light status */
-uint32 simulateuRoomTemperature();   /* Function to simulate room temperature */
-uint32 simulateEngineTemperature();   /* Function to simulate engine temperature */
+uint8 simulateTrafficLight();  /* Function to select the traffic light based on user input. */
+uint32 simulateuRoomTemperature();   /* Function to select the room temperature based on user input. */
+uint32 simulateEngineTemperature();   /* Function to select the engine temperature based on user input. */
 
 
 #endif /* SENSORFUNCTIONS_H_ */
