@@ -18,7 +18,7 @@
  */
 void printMainMenu() {
 
-    printf("\t\t Main Menu:\n");
+    printf("Main Menu:\n");
     printf("a. Turn on the vehicle engine\n");
     printf("b. Turn off the vehicle engine\n");
     printf("c. Quit the system\n\n");
