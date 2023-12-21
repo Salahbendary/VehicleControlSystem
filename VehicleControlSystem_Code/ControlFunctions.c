@@ -10,7 +10,11 @@
 
 #include "ControlFunctions.h"
 
-
+/**
+ * @brief Function to Control the vehicle based on sensor inputs, including traffic light, room temperature, and engine temperature.
+ * @param _ uint8 u8trafficLight, uint32 u32roomTemp, uint32 u32engineTemp
+ * @return Void - NO return
+ */
 void controlVehicleBasedOnSensors(uint8 u8trafficLight, uint32 u32roomTemp, uint32 u32engineTemp) {
     uint32 u32vehicleSpeed;
     char* p8ACState;
@@ -19,15 +23,15 @@ void controlVehicleBasedOnSensors(uint8 u8trafficLight, uint32 u32roomTemp, uint
     printf("\nVehicle Control based on Sensors:\n");
 
    /* a. Based on traffic light data */
-    if ((u8trafficLight == 'G') ||  (u8trafficLight == 'g')) {
+    if ((u8trafficLight == GREEN_LIGHT_LOWERCASE) || (u8trafficLight == GREEN_LIGHT_UPPERCASE)) {
         // i. Set vehicle speed to 100 km/hr
-        u32vehicleSpeed = 100;
-    } else if ((u8trafficLight == 'O') || (u8trafficLight == 'o')) {
+        u32vehicleSpeed = SPEED_100;
+    } else if ((u8trafficLight == YELLOW_LIGHT_LOWERCASE ) || (u8trafficLight == YELLOW_LIGHT_UPPERCASE ))  {
         // ii. Set vehicle speed to 30 km/hr
-        u32vehicleSpeed = 30;
-    } else if ((u8trafficLight == 'R') ||  (u8trafficLight == 'r')) {
+        u32vehicleSpeed = SPEED_30;
+    } else if ((u8trafficLight == RED_LIGHT_LOWERCASE) || (u8trafficLight == RED_LIGHT_UPPERCASE)) {
         // iii. Set vehicle speed to 0 km/h
-        u32vehicleSpeed = 0;
+        u32vehicleSpeed = SPEED_0;
     } else {
         printf("Invalid traffic light color\n");
         return;  // Exit function if invalid input
@@ -82,6 +86,13 @@ void controlVehicleBasedOnSensors(uint8 u8trafficLight, uint32 u32roomTemp, uint
     		p8engineTempControllerState,u32engineTemp);
 
 }
+
+/**
+ * @brief Function to display the current state of the vehicle, including engine state, AC state, vehicle speed, room temperature, and engine temperature.
+ * @param _ char* const p8ACState, uint32 u32vehicleSpeed, uint32 u32roomTemp,
+ *          char* const p8engineTempControllerState, uint32 u32engineTemp
+ * @return Void - NO return
+ */
 void displayVehicleState(char* const p8ACState, uint32 u32vehicleSpeed, uint32 u32roomTemp,
 		char* const p8engineTempControllerState, uint32 u32engineTemp) {
 	    /* e. Display the current vehicle state */
